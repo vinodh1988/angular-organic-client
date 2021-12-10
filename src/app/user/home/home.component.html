@@ -1,0 +1,11 @@
+<app-menu-outline [pictures]="pictures"
+[strings]="strings"
+[urls]="urls">
+</app-menu-outline>
+<div id="container">
+<router-outlet></router-outlet>
+<app-plist [products]="products" [producttitle]="'All Products'" *ngIf="show"></app-plist>
+<app-plist [products]="vproducts" [producttitle]="'Vegetables'"  *ngIf="show"></app-plist>
+<app-plist [products]="fproducts" [producttitle]="'Fruits'"  *ngIf="show"></app-plist>
+<app-plist [products]="sproducts" [producttitle]="'Salads'"  *ngIf="show"></app-plist>
+</div>

@@ -1,0 +1,22 @@
+<div class="alert alert-info">
+    <h1>Complaints</h1>
+</div>
+<table class="table table-hover">
+     <thead>
+          <tr>
+              <th>User</th>
+              <th>Subject</th>
+              <th>Message</th>
+              <th>Reply</th>
+          </tr>
+
+     </thead>
+     <tbody>
+          <tr *ngFor="let x of messages">
+              <td>{{x.username}}</td>
+              <td>{{x.subject}}</td>
+              <td>{{x.message}}</td>
+              <td><button class="btn btn-success" (click)="openDialog(x.username)">Reply</button></td>
+          </tr>
+     </tbody>
+</table>

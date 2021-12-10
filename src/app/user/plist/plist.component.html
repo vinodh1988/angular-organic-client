@@ -1,0 +1,13 @@
+<div class="product-container">
+    <h1>{{producttitle}}</h1>
+    <div id="corner-arrow-left"  [appScrollback]="100" >
+         <img src="http://localhost:4500/images/left-arrow.png"/>
+    </div>
+    <div id="corner-arrow-right" [appScroll]="100" >
+         <img src="http://localhost:4500/images/right-arrow.png"/>
+    </div>
+<div class="product-scroll">
+    <app-product *ngFor="let x of products" [product]="x"  (click)="changeroute(x)"></app-product>
+   
+</div>
+</div>

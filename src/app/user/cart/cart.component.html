@@ -1,0 +1,28 @@
+<div id="cart-content">
+    <h3>Products You have Purchased</h3>
+    <div id="pro-table">
+       <table>
+           <thead>
+           <tr>
+               <th [style.width]="'350px'">Name</th>
+               <th [style.width]="'100px'">Quantity</th>
+               <th [style.width]="'100px'">Price</th>
+               <th [style.width]="'150px'">Amount</th>
+           </tr>
+           </thead>
+           <tbody>
+                <tr *ngFor="let x of cart">
+                    <td>{{x.name}}</td>
+                    <td>{{x.qty}}</td>
+                    <td>{{x.price | currency: "USD"}}</td>
+                    <td>{{x.qty*x.price | currency : "USD"}}</td>
+                </tr>
+           </tbody>
+       </table>
+    </div>
+
+   <div id="amounter"> Total bill amount to be paid:  {{total  | number : '1.2-2' | currency:"USD"}} </div>
+   <div id="pay-button"><button className="btn" (click)="placeOrder()">
+   Place the order</button></div>
+   <br> <br> <br> <br> <br> <br> <br>
+</div>

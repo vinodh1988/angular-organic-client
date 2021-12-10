@@ -1,0 +1,16 @@
+<h1>Write Us </h1>
+<div class="field">
+   <mat-form-field appearance="fill" [style.width]="'700px'">
+      <mat-label>Subject</mat-label>
+      <input matInput [(ngModel)]="subject">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill" [style.width]="'700px'">
+      <mat-label>Your Message to us</mat-label>
+      <textarea matInput
+      rows="10" [(ngModel)]="message"
+     ></textarea>
+    </mat-form-field>
+    <br>
+    <button (click)="send()" class="btn btn-success" [style.margin-left]="'500px'">Send Message</button>
+</div>

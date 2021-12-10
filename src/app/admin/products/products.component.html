@@ -1,0 +1,27 @@
+<button class="btn btn-success" (click)="loadDialog()">Click here to add new Product</button>
+
+<h1 class="alert alert-success"> Products List </h1>
+
+<table class="table table-hover">
+     <thead>
+         <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th></th>
+            <th></th>
+         </tr>
+        </thead>
+         <tbody>
+             <tr *ngFor="let x of products">
+                 <td>{{x.name}}</td>
+                 <td>{{x.price | currency : "USD"}}</td>
+                 <td>{{x.description }}</td>
+                 <td>{{x.type }}</td>
+                 <td class="btns" (click)=" loadUpdateDialog(x)"><img src="http://localhost:4500/images/edit.png" height="30" width="30"></td>
+                 <td class="btns" (click)="remove(x.id)"><img src="http://localhost:4500/images/delete.png"  height="30" width="30"></td>
+             </tr>
+         </tbody>
+     
+</table>

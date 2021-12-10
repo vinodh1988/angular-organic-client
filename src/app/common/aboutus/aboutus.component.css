@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: lightgreen;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    padding-right: 50px;
+    color: rgb(47, 80, 47);
+}
+
+#slide-show{
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+}
+
+#slide-show img{
+    height: 100%;
+    width: 100%;
+}

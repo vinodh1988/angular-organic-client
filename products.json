@@ -1,0 +1,451 @@
+[{
+
+  "id": 1,
+  "name": "Taboule Salad",
+  "type": "Salads",
+  "price": 17,
+  "image": "Taboule_Salad.jpg",
+  "description": "Taboule salad or Tabbouleh is a simple Mediterranean salad of very finely chopped vegetables, lots of fresh parsley and bulgur wheat, all tossed with lime juice and olive oil. Grab my tips and watch the video for how to make tabouli below. Tabouli is likely the topmost famed Mediterranean/Middle Eastern salad there is..",
+  "qty": "7 oz"
+},{
+  
+  "id": 2,
+  "name": "Greek Salad",
+  "type": "Salads",
+  "price": "9.99",
+  "image": "Greek_Salad.jpg",
+  "description": "Greek salad or horiatiki salad (Greek: χωριάτικη σαλάτα[a] or θερινή σαλάτα[b]) is a popular salad in Greek cuisine generally made with pieces of tomatoes, cucumbers, onion, feta cheese (usually served as a slice on top of the other ingredients), and olives (typically Kalamata olives) and dressed with salt, pepper, Greek oregano, and olive oil. ",
+  "qty": "7 oz"
+},{
+  
+  "id": 3,
+  "name": "Chicken Caesar Salad",
+  "type": "Salads",
+  "price": "10",
+  "image": "Chicken_Caesar_Salad.jpg",
+  "description": "In a large bowl, add the romaine lettuce, chicken breast and cucumber. Add about 2/3 of the dressing and toss to coat. Add the croutons and Parmesan cheese, toss lightly and season with more salt and pepper to taste.",
+  "qty": "7 oz"
+},{
+
+  "id": 4,
+  "name": "Chickpea Salad",
+  "type": "Salads",
+  "price": "8.99",
+  "image": "Chickpea_Salad.jpg",
+  "description": "Chickpeas are combined with juicy tomatoes, refreshing cucumbers and creamy avocados all tossed in an easy homemade lemon kissed dressing.",
+  "qty": "8 oz"
+},{
+  
+  "id": 5,
+  "name": "Pasta Primavera",
+  "type": "Salads",
+  "price": "10",
+  "image": "Pasta_Primavera.jpg",
+  "description": "Pasta primavera is a simple dish made with pasta and fresh vegetables. ",
+  "qty": "7 oz"
+},{
+ 
+  "id": 6,
+  "name": "Tuna Salad",
+  "type": "Salads",
+  "price": "10",
+  "image": "Tuna_Salad.jpg",
+  "description": "Tuna salad is a light and fresh comfort food classic. Made with a few simple ingredients such as canned tuna, mayonnaise, onion and celery, it's the perfect combination of creamy and crispy. ",
+  "qty": "9 oz"
+},{
+ 
+  "id": 7,
+  "name": "Egg Salad",
+  "type": "Salads",
+  "price": "6.99",
+  "image": "Egg_Salad.jpg",
+  "description": "egg salad sandwich is all about the little tweaks and a smart ratio of eggs to other ingredients.",
+  "qty": "7 oz"
+},{
+ 
+  "id": 8,
+  "name": "Pacific Salad",
+  "type": "Salads",
+  "price": "7.99",
+  "image": "Pacific_Salad.jpg",
+  "description": "A cool summertime salad with ingredients from the Pacific rim. The salad has fresh herbs and a rice vinegar dressing. ",
+  "qty": "7 oz"
+},{
+ 
+  "id": 9,
+  "name": "Vegan Chopped Salad",
+  "type": "Salads",
+  "price": "5.99",
+  "image": "Vegan_Chopped_Salad.jpg",
+  "description": "Vegan chopped salad made with a variety of vegetables, chickpeas and plant-based.",
+  "qty": "7 oz"
+},{
+ 
+  "id": 10,
+  "name": "Sesame Seaweed Salad",
+  "type": "Salads",
+  "price": "8.99",
+  "image": "Sesame_Seaweed_Salad.jpg",
+  "description": "Japanese-American style seaweed salad gets its trademark flavor from toasted sesame oil, which is combined with soy sauce, sugar, vinegar, and salt. ",
+  "qty": "7 oz"
+},{
+ 
+  "id": 11,
+  "name": "Black Bean Salad",
+  "type": "Salads",
+  "price": "5.99",
+  "image": "Black_Bean_Salad.jpg",
+  "description": "black bean salad is black beans (canned or freshly made) with corn kernels (canned, frozen, or fresh). Parsley, basil or cilantro add an herby note to the flavors.",
+  "qty": "7 oz"
+},{
+ 
+  "id": 12,
+  "name": "Muffuletta Olive Salad",
+  "type": "Salads",
+  "price": "9.99",
+  "image": "Muffuletta_Olive_Salad.jpg",
+  "description": "Muffuletta Olive Salad. A briny, bright, spicy olive spread to go with crackers, in sandwiches or to top grilled fish, chicken and pork. ",
+  "qty": "7 oz"
+},{
+ 
+  "id": 13,
+  "name": "Broccoli Crunch Salad",
+  "type": "Salads",
+  "price": "8.99",
+  "image": "Broccoli_Crunch_Salad.jpg",
+  "description": "Broccoli Crunch Salad is a classic salad recipe. Broccoli, dried cranberries, bacon, sunflower seeds and finely diced red onion is tossed in a simple dressing.",
+  "qty": "7 oz"
+},{
+ 
+  "id": 14,
+  "name": "Seasoned Squid Salad",
+  "type": "Salads",
+  "price": "10",
+  "image": "Seasoned_Squid_Salad.jpg",
+  "description": "Seasoned Squid Salad (Chuka Ika Sansai) is prepared using traditional Japanese Chinese cuisine flavorings and methods.   The flavor of ginger helps tie together the various flavors, spices, crisp vegatables, and sliced squid to produce a delicious fully cooked entrée that is immediately ready to eat upon thawing. This is an excellent appetizer or side dish.",
+  "qty": "7 oz"
+},{
+ 
+  "id": 15,
+  "name": "Squash Butternut Sprout Brussels Fp Salad",
+  "type": "Salads",
+  "price": "10",
+  "image": "Brussels_Salad.jpg",
+  "description": "Roasted Butternut Squash Brussel Sprout Salad finished with a maple dijon glaze, pecans and cranberries. The perfect Thanksgiving or Christmas side dish!",
+  "qty": "7 oz"
+},{
+
+  "id": 16,
+  "name": "Gala Apple",
+  "type": "Fruits",
+  "price": "2.99",
+  "image": "Gala_Apple.jpg",
+  "description": "Gala apples are covered in a thin yellow to orange skin, highlighted with pink to red stripes that vary in hue dependent upon the apples maturity. Their dense flesh is creamy yellow and crisp, offering a mildly sweet flavor and flora aroma. Gala’s that are allowed to reach the peak of their sweetness on the tree will have a deeper red hue and a slightly sweeter flavor.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 17,
+  "name": "Green Apple",
+  "type": "Fruits",
+  "price": "2.99",
+  "image": "Green_Apple.jpg",
+  "description": "Green apples are light green in colour and have crisp and juicy white flesh, which has a tart taste compared to red apples.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 18,
+  "name": "Cherry Tomatoes",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Cherry_Tomatoes.jpg",
+  "description": "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. ",
+  "qty": "1 lb"
+},{
+ 
+  "id": 19,
+  "name": "Red Cherries",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Red_Cherry.jpg",
+  "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe bird cherry or European bird cherry. ",
+  "qty": "1 lb"
+},{
+ 
+  "id": 20,
+  "name": "Blueberries",
+  "type": "Fruits",
+  "price": "7.99",
+  "image": "Blueberries.jpg",
+  "description": "Blueberries Are Low in Calories But High in Nutrients The blueberry bush is a flowering shrub that produces berries with a bluish, purple hue — also known as blueberries.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 21,
+  "name": "Strawberries",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Strawberries.jpg",
+  "description": "Strawberries are low-growing herbaceous plants with a fibrous root system and a crown from which arise basal leaves.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 22,
+  "name": "Banana",
+  "type": "Fruits",
+  "price": "1.99",
+  "image": "Banana.jpg",
+  "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.",
+  "qty": "1 lb"
+},{
+
+  "id": 23,
+  "name": "Watermelon",
+  "type": "Fruits",
+  "price": "9.99",
+  "image": "Watermelon.jpg",
+  "description": "Watermelon is a sweet and refreshing low calorie summer snack. It provides hydration and also essential nutrients, including vitamins, minerals, and antioxidants. ",
+  "qty": "11 lb"
+},{
+
+  "id": 24,
+  "name": "Honeydew",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Honeydew.jpg",
+  "description": "Honeydew is a sugar-rich sticky liquid, secreted by aphids and some scale insects as they feed on plant sap.",
+  "qty": "4 lb"
+},{
+ 
+  "id": 25,
+  "name": "Red Grapes",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "RedGrapes.jpg",
+  "description": "Red seedless grapes are firm, crisp, and sweet with a mild, neutral flavor.",
+  "qty": "1 lb"
+},{
+
+  "id": 26,
+  "name": "Green Grapes",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "GreenGrapes.jpg",
+  "description": "Green seedless grapes are firm, crisp, and sweet with a mild, neutral flavor.",
+  "qty": "1 lb"
+},{
+
+  "id": 27,
+  "name": "Orange",
+  "type": "Fruits",
+  "price": "4.99",
+  "image": "Orange.jpg",
+  "description": "An orange is a type of citrus fruit that people often eat. Oranges are a very good source of vitamin C.",
+  "qty": "1 lb"
+},{
+
+  "id": 28,
+  "name": "Grapefruit",
+  "type": "Fruits",
+  "price": "4.99",
+  "image": "Grapefruit.jpg",
+  "description": "Grapefruit is low in calories and high in nutrients that contribute to skin and cardiovascular health, among others.",
+  "qty": "1 lb"
+},{
+
+  "id": 29,
+  "name": "Kiwi",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Kiwi.jpg",
+  "description": "kiwi fruit is a true berry and has furry brownish green skin. The firm translucent green flesh has numerous edible purple-black seeds embedded around a white centre.",
+  "qty": "1 lb"
+},{
+
+  "id": 30,
+  "name": "Mango",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "Mango.jpg",
+  "description": "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. ",
+  "qty": "1 lb"
+},{
+
+  "id": 31,
+  "name": "Green Coconut",
+  "type": "Fruits",
+  "price": "5.99",
+  "image": "GreenCoconut.jpg",
+  "description": "Green coconuts are prized for their refreshing and healthy water, as well as their tender meat.",
+  "qty": "3 lb"
+},{
+  
+  "id": 32,
+  "name": "Pineapple",
+  "type": "Fruits",
+  "price": "6.99",
+  "image": "Pineapple.jpg",
+  "description": "A pineapple is a tropical fruit with a tough outer shell that looks like a pine cone with edible yellow fruit inside. ",
+  "qty": "4 lb"
+},{
+
+  "id": 33,
+  "name": "Orange Juice",
+  "type": "Juices",
+  "price": "5.99",
+  "image": "Orange_Juice.jpg",
+  "description": "Orange juice is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges. ",
+  "qty": "500 ml"
+},{
+
+  "id": 34,
+  "name": "Grapes Juice",
+  "type": "Juices",
+  "price": "7.99",
+  "image": "Grape_Juice.jpg",
+  "description": "Grapes juice is a liquid extract of the grapes tree fruit, produced by squeezing or reaming grapes.",
+  "qty": "500 ml"
+},{
+ 
+  "id": 35,
+  "name": "Apple Juice",
+  "type": "Juices",
+  "price": "5.99",
+  "image": "Apple_Juice.jpg",
+  "description": "Apple juice is a liquid extract of the Apple tree fruit, produced by squeezing or reaming Apple.",
+  "qty": "500 ml"
+},{
+
+  "id": 36,
+  "name": "Pineapple Juice",
+  "type": "Juices",
+  "price": "6.99",
+  "image": "Pineapple_Juice.jpg",
+  "description": "Pineapple juice is a liquid extract of the Pineapple tree fruit, produced by squeezing or reaming Pineapple.",
+  "qty": "500 ml"
+},{
+
+  "id": 37,
+  "name": "Mango Juice",
+  "type": "Juices",
+  "price": "5.99",
+  "image": "Mango_Juice.jpg",
+  "description": "Mango juice is a liquid extract of the Mango tree fruit, produced by squeezing or reaming Mango.",
+  "qty": "500 ml"
+},{
+
+  "id": 38,
+  "name": "Strawberry Juice",
+  "type": "Juices",
+  "price": "10.99",
+  "image": "Strawberry_Juice.jpg",
+  "description": "Strawberry  juice is a liquid extract of the Strawberry  tree fruit, produced by squeezing or reaming Strawberry.",
+  "qty": "500 ml"
+},{
+
+  "id": 39,
+  "name": "Canberry Juice",
+  "type": "Juices",
+  "price": "8.99",
+  "image": "Canberry_Juice.jpg",
+  "description": "Canberry  juice is a liquid extract of the Canberry tree fruit, produced by squeezing or reaming Canberry.",
+  "qty": "500 ml"
+},{
+  
+  "id": 40,
+  "name": "Cherry Juice",
+  "type": "Juices",
+  "price": "10.99",
+  "image": "Cherry_Juice.jpg",
+  "description": "Cherry juice is a liquid extract of the Cherry tree fruit, produced by squeezing or reaming Cherry .",
+  "qty": "500 ml"
+},{
+ 
+  "id": 41,
+  "name": "Bell pepper",
+  "type": "Vegetables",
+  "price": "5.99",
+  "image": "Bell_pepper.jpg",
+  "description": "The bell pepper is the plants in the Grossum cultivar group of the species Capsicum annuum.",
+  "qty": "1 lb"
+},{
+
+  "id": 42,
+  "name": "Red Onion",
+  "type": "Vegetables",
+  "price": "5.99",
+  "image": "Red_Onion.jpg",
+  "description": "Red onion A type of onion with reddish purplish skin.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 43,
+  "name": "Potato",
+  "type": "Vegetables",
+  "price": "4.99",
+  "image": "Potato.jpg",
+  "description": "The potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum.",
+  "qty": "1 lb"
+},{
+
+  "id": 44,
+  "name": "Squash",
+  "type": "Vegetables",
+  "price": "5.99",
+  "image": "Squash.jpg",
+  "description": "The Squash is a vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum.",
+  "qty": "1 lb"
+},{
+
+  "id": 45,
+  "name": "SweetPotato",
+  "type": "Vegetables",
+  "price": "4.99",
+  "image": "SweetPotato.jpg",
+  "description": "The SweetPotato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 46,
+  "name": "Eggplant",
+  "type": "Vegetables",
+  "price": "3.99",
+  "image": "Eggplant.jpg",
+  "description": "Eggplant, aubergine or brinjal is a plant species in the nightshade family Solanaceae.",
+  "qty": "1 lb"
+},{
+  
+  "id": 47,
+  "name": "Cauliflower",
+  "type": "Vegetables",
+  "price": "2.99",
+  "image": "Cauliflower.jpg",
+  "description": "Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae family. It is an annual plant that reproduces by seed. ",
+  "qty": "1 lb"
+},{
+
+  "id": 48,
+  "name": "Cabbage",
+  "type": "Vegetables",
+  "price": "2.99",
+  "image": "Cabbage.jpg",
+  "description": "Cabbage is a leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads.",
+  "qty": "1 lb"
+},{
+ 
+  "id": 49,
+  "name": "Red Cabbage",
+  "type": "Vegetables",
+  "price": "2.99",
+  "image": "Red_Cabbage.jpg",
+  "description": "Red Cabbage is a leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads.",
+  "qty": "1 lb"
+},{
+
+  "id": 50,
+  "name": "Carrot",
+  "type": "Vegetables",
+  "price": "2.99",
+  "image": "Carrot.jpg",
+  "description": "The carrot is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist. ",
+  "qty": "1 lb"
+}]

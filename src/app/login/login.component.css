@@ -1,0 +1,77 @@
+#login-card{
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+    margin-left: 30%;
+    background-color: white;
+    box-shadow: 0px 2px 10px lightgray;
+    position: relative;
+}
+
+
+#image-left{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    height: 30%;
+    width:30%;
+}
+
+#image-center{
+    position: absolute;
+    left: 45%;
+    top:0px;
+    height: 35%;
+    width:35%;
+}
+#image-bottom-right{
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    height: 25%;
+    width:25%;
+}
+
+#image-bottom-right img, #image-left img, #image-bottom-center img{
+    height: 100%;
+    width: 100%;
+}
+
+#log-table{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+input[type="text"], input[type="password"]{
+    height: 30px;
+    width: 200px;
+}
+
+button{
+    background-color: #2ECC71;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+th,td{
+    height: 50px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 720px) {
+  #login-card{
+     width: 100%;
+     margin: 0px;
+     margin-left: 0px;
+  }
+}
+
+.loading, .errors{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 25%;
+    color: green;
+}

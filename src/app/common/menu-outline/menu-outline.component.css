@@ -1,0 +1,110 @@
+nav{
+    box-shadow: 0px 5px 5px rgb(45, 177, 45) !important;
+    position: fixed;
+    top: 0px;
+    z-index:2;
+    width: 100%;
+}
+
+.icon-img{
+    height: 40px;
+    width: 40px;
+}
+
+.title-img{
+    height: 60px;
+    width: 200px;
+}
+
+.bg-green{
+    background-color: #5FFC5B;
+}
+
+a{
+    color: #033803 !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+
+.borderlogo{
+    border: 1px solid  rgb(71, 70, 70) !important;
+    background-color: rgb(97, 252, 97);
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px lightgreen;
+    padding-left: 20px;
+}
+@media only screen and (min-width: 721px) {
+.user-menu {
+    background-color:  #5FFC5B;
+    overflow: hidden;
+    position:fixed;
+    left: 0px;
+    top: 30%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    box-shadow: 0px 5px 5px rgb(45, 177, 45);
+    text-align: center;
+    z-index: 2;
+}
+
+.user-menu ul{
+ margin: 0px;
+ padding: 0px;
+}
+.user-menu li{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    border: 2px solid rgb(13, 194, 13);
+    padding: 3px;
+    margin:5px;
+}
+
+.user-menu li img{
+    height: 30px;
+    width: 30px;
+    display:block;
+    padding-left:10px;
+}
+}
+
+@media only screen and (max-width: 720px) {
+    .user-menu {
+        background-color:  #5FFC5B;
+        height: 15%;
+        position:fixed;
+        bottom: 0%;
+        width: 100%;
+        box-shadow: 0px 5px 5px rgb(45, 177, 45);
+        padding-left:15%;
+        padding-right:15%;
+        z-index: 2;
+    }
+    
+    .user-menu ul{
+     margin: 0px;
+     padding: 0px;
+     float: left;
+    }
+    .user-menu li{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        list-style-type: none;
+        border: 1px solid rgb(103, 221, 103);
+        padding: 3px;
+        margin:5px;
+        float: left;
+        width: 100px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px rgb(214, 211, 211);
+    }
+    
+    .user-menu li img{
+        height: 30px;
+        width: 30px;
+        margin-left: 25px;
+        display:block;
+    }
+  }

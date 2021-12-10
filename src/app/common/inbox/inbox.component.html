@@ -1,0 +1,43 @@
+<div class="jumbotron">
+    <h1>Responses </h1>
+
+<table class="table table-hover">
+     <thead>
+          <tr>
+
+              <th>Subject</th>
+              <th>Message</th>
+          </tr>
+
+     </thead>
+     <tbody>
+          <tr *ngFor="let x of received">
+
+              <td>{{x.subject}}</td>
+              <td>{{x.message}}</td>
+             
+          </tr>
+     </tbody>
+</table>
+</div>
+<div class="jumbotron">
+    <h1>Sent Complaints</h1>
+<table class="table table-hover">
+     <thead>
+          <tr>
+              <th>Subject</th>
+              <th>Message</th>
+              
+          </tr>
+
+     </thead>
+     <tbody>
+          <tr *ngFor="let x of sent">
+              
+              <td>{{x.subject}}</td>
+              <td>{{x.message}}</td>
+              
+          </tr>
+     </tbody>
+</table>
+</div>

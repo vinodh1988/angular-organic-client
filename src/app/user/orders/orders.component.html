@@ -1,0 +1,19 @@
+<h1 class="alert alert-success"> Your Past Order </h1>
+
+<table class="table table-hover">
+     <thead>
+         <tr>
+            <th>OrderId</th>
+            <th>OrderDate</th>
+            <th>Carrt Items</th>
+         </tr>
+        </thead>
+         <tbody>
+             <tr *ngFor="let x of orders">
+                 <td>{{x.orderid}}</td>
+                 <td>{{x.date}}</td>
+                 <td [style.color]="'green'">Click to view cart here</td>
+             </tr>
+         </tbody>
+     
+</table>

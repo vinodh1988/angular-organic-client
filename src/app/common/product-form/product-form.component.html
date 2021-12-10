@@ -1,0 +1,57 @@
+<form [formGroup]="myForm" (submit)="addProduct()">
+    <div class="container">
+        <h1>Adding a New  Product</h1>
+        <div class="left">
+            <div class="form-item">
+                    <label class="label">Name</label>
+                    <input type="text" formControlName="name" >
+             </div>
+             <div class="form-item">
+               <label class="label">Description</label>
+               <textarea formControlName="description"></textarea>
+             </div>
+            
+            
+           
+            </div>
+            <div class="right">
+            <div class="form-item">
+                <label class="label"> Type</label>
+                <select formControlName="type" > 
+                     <option>Fruits</option>
+                     <option>Vegetables</option>
+                     <option>Salads</option>
+                </select>
+            </div>
+        
+            <div class="form-item">
+                <label class="label"> Qty</label>
+                <input type="text" formControlName="qty" >
+            </div>
+            
+            <div class="form-item">
+                <label class="label"> Price</label>
+                <input type="number" formControlName="price" >
+            </div>
+      
+    
+        <div class="form-item">
+            <label class="label">Image file</label>
+            <input type="file" formControlName="imagename" (change)="uploadFile1($event)">
+        </div>
+        
+     
+      </div>
+    </div>  
+        
+      
+    
+    
+    <div class="submit-item" >
+        <h6 *ngIf="!myForm.valid" [style.color]="'red'" [style.textAlign]="'center'">
+            Please  enter all the fields correctly {{myForm.valid}}</h6>
+        <input type="submit" *ngIf="myForm.valid" value={{buttonString}}>
+       
+    </div>
+ 
+    </form>

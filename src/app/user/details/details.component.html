@@ -1,0 +1,25 @@
+<div id="Productdetails-container">
+    <div id="image-block">
+        <img src="http://localhost:4500/images/{{state.image}}">
+    </div>
+    <div id="description-block">
+       <h3>{{state.name}}</h3>
+       <h6>({{state.qty}})</h6>
+       <p>
+           {{state.description}}
+       </p>
+       <h2>
+            Price: &#8377;{{state.price}}
+       </h2>
+         Quantity <input type="number" [(ngModel)]="qty"  min="1" max="5"/><br/>
+        <button 
+        type="button"
+        class="btn" 
+        (click)="addToCart()"
+        [disabled]="!active"
+        >
+            {{buttonstatus}}
+            </button>
+            <br><br><br><br><br><br>
+    </div>
+</div>

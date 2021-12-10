@@ -1,0 +1,9 @@
+h1,h3{
+    color: rgb(60, 180, 60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-style: italic;
+    color: rgb(55, 143, 55);
+}
